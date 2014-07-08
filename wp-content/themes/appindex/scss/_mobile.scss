@@ -86,7 +86,7 @@ header {
   padding: 10px 0px;
   margin: 0 auto;
   text-align: center;
-  @include background-image-retina(test/app-index/wp-content/themes/appindex/img/search-icon, png, 20px, 20px);
+  @include background-image-retina(/poop/app-index/wp-content/themes/appindex/img/search-icon, png, 20px, 20px);
   background-repeat: no-repeat;
   background-position: 4% 50%;
   font-family: "ff-din-web", verdana, sans-serif;
