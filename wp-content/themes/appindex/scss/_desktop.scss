@@ -1,0 +1,135 @@
+// Typography
+h1 {font-size: 72px; line-height: 1.3em; }
+h2 {font-size: 72px; line-height: 1em;}
+h3 {font-size: 40px;}
+h4 {font-size: 28px;}
+h5 {font-size: 21px;}
+h6 {font-size: 18px; letter-spacing: 0.2px;}
+p {font-size: 24px;}
+
+.logo {
+  width: 220px;
+  height: 30px;
+  @include background-image-retina(/app-index/wp-content/themes/appindex/img/logo-posts, png, 220px, 30px);
+  display: block;
+  margin: 18px auto;
+}
+
+a { text-decoration: none; }
+
+.landing-page article {
+  margin: 0 auto;
+  padding: 40px 0 50px;
+  color: rgba(0,0,0,0.6);
+
+  h2, h4, h6, p {
+    margin: 0 auto;
+    padding: 0;
+  }
+  h2 {margin:10px auto;}
+}
+
+.tags {
+  a {color: rgba(0,0,0,0.5); font-size: 12px;}
+}
+
+.article-wrap {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.words {
+  font-size: 28px;
+  color: rgba(0,0,0,0.65);
+}
+
+// .logo-footer {
+//   display: inline-block;
+//   width: 300px;
+//   height: 150px;
+//   @include background-image-retina(/appindex/wp-content/themes/appindex/img/footer-logo, png, 300px, 150px);
+// }
+
+.switch-toggle { height: 100px; }
+.switch-toggle a {
+  top: 10px;
+  left: 8px;
+  right: 3px;
+  width: 50%;
+  height: 80%;
+}
+.switch-toggle input:last-of-type:checked ~ a { left: 56%; }
+.switch-candy {
+  border-radius: 100px;
+  width: 200px;
+}
+.switch-candy a {
+  background-color: #ffffff;
+  border-radius: 100px;
+  width: 80px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.review-header-wrap {
+  padding: 60px 0 0;
+}
+
+.download-wrap {
+  margin: 80px 0 0;
+  padding: 20px 0 30px;
+}
+
+.featured-image {
+  width: 160px;
+  height: 160px;
+}
+
+.download-wrap {
+  .download-icon { margin-top: 9px; }
+}
+
+.review-page-content {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1024px;
+  p {max-width:760px; margin: 0 auto;}
+  // p {
+  //   img {
+  //     display: inline-block;
+  //     width: 49%;
+  //     height: auto;
+  //   }
+  // }
+}
+
+.review-header-wrap {
+  h1 {font-size: 92px}
+}
+
+.tags {
+  a {color: rgba(0,0,0,0.5); font-size: 18px;}
+}
+
+.search-page-wrap {
+  .found { margin: 40px auto; }
+  article {
+    margin: 0 auto;
+    padding: 48px 0 50px;
+    color: rgba(0,0,0,0.6);
+
+    h2, h4, h6, p {
+      margin: 0 auto;
+      padding: 0;
+    }
+    h2 {margin:0px auto;}
+  }
+}
+
+
+.not-found {
+  text-align: center;
+  max-width: 760px;
+  margin: -100px auto 0 !important;
+  img {margin: 40px auto;}
+}

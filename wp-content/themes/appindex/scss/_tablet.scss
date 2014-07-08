@@ -1,0 +1,111 @@
+h1 {font-size: 60px; line-height: 1.3em; }
+h2 {font-size: 42px; line-height: 1.3em;}
+h3 {font-size: 24px;}
+h4 {font-size: 18px;}
+h5 {font-size: 14px;}
+h6 {font-size: 12px; letter-spacing: 0.2px;}
+p {font-size: 21px;}
+
+.toggle-wrap {
+  background-color: #ffffff;
+  padding: 20px 0 30px;
+  position: relative;
+  h4 { margin: 10px auto 20px;}
+  .icon {
+    color: transparent;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .apple {
+    @include background-image-retina(/app-index/wp-content/themes/appindex/img/toggle-apple, png, 70px, 70px);
+  }
+  .android {
+    @include background-image-retina(/app-index/wp-content/themes/appindex/img/toggle-android, png, 70px, 70px);
+  }
+  .switch-toggle {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+
+.switch-toggle { height: 70px; }
+.switch-toggle a {
+  top: 7px;
+  left: 8px;
+  right: 3px;
+  width: 50%;
+  height: 80%;
+}
+.switch-toggle input:last-of-type:checked ~ a { left: 58%; }
+.switch-candy {
+  border-radius: 100px;
+  width: 160px;
+}
+.switch-candy a {
+  background-color: #ffffff;
+  border-radius: 100px;
+  width: 60px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+.search-input {
+  font-size: 18px;
+  padding: 10px 0;
+  text-align: left;
+  padding-left: 100px;
+  background-position: 70px 10px;
+}
+
+.ui-menu .ui-menu-item a {
+  text-align: left;
+}
+body .ui-autocomplete {
+  /* font-family to all */
+  border: 0;
+  padding: 0;
+}
+
+body .ui-autocomplete .ui-menu-item .ui-corner-all {
+   /* all <a> */
+   border: 0;
+   font-size: 16px;
+   padding: 6px 0;
+   margin: 0;
+   padding-left: 100px;
+
+}
+
+body .ui-autocomplete .ui-menu-item .ui-state-focus {
+   background: #f2f2f2 ;
+   border: 0;
+   color: #000000;
+   padding: 6px 0;
+   padding-left: 100px;
+}
+
+.review-header-wrap {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 72px 0 0;
+  h1, h2 {color: rgba(0,0,0,0.8);}
+}
+
+.download-wrap {
+  margin: 72px auto 0;
+  background-color: rgba(255,255,255,0.2);
+  padding: 14px 0 12px;
+  width: 100%;
+}
+
+.not-found {
+  text-align: center;
+  max-width: 760px;
+  margin: -40px auto 0 !important;
+  img {margin: 40px auto;}
+}
